@@ -1,4 +1,4 @@
-# Eduardo Jurado
+# Eduardo Felipe Jurado
 
 ### Software Developer | .NET Developer | Cybersecurity Student | Open Source Contributor
 
