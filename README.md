@@ -175,44 +175,6 @@ Practical infrastructure and security environments involving:
 
 ---
 
-## 💼 Professional Experience
-
-**Software Developer / IT**  
-Central Azucarero de Alanje, S.A. | April 2023 – Present
-
-- Development and maintenance of enterprise applications using C#, .NET, VB.NET, and SQL Server.
-- Development of internal business applications using .NET MAUI.
-- Automation of administrative and operational processes.
-- Development of business intelligence reports and dashboards with Power BI and Microsoft Fabric.
-- Administration of Windows and Linux servers, virtualization, and network services.
-- Implementation and administration of GLPI for IT asset and incident management.
-- Application deployment and administration using Docker.
-- Version control and deployment workflows using Git and Azure DevOps.
-- Technical support, infrastructure administration, and security controls.
-
-**Independent IT Consultant**  
-Panama | 2022 – Present
-
-- Development of business solutions using .NET, C#, SQL Server, and AppSheet.
-- Business process automation and system integration.
-- SAP Business One support and configuration.
-- IT infrastructure and technical support.
-- Implementation of access controls, backups, and security best practices.
-
----
-
-## 🎓 Education
-
-**Bachelor's Degree in Cybersecurity**  
-Universidad Tecnológica de Panamá (UTP)  
-Currently pursuing — Final year.
-
-**Oracle Next Education**  
-Backend Development — Java / Spring.
-
-**Google IT Support Professional Certificate**  
-Coursera — Google.
-
 ---
 
 ## 🏅 Certifications & Professional Training
