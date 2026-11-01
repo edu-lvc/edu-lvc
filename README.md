@@ -1,6 +1,6 @@
 # Eduardo Jurado
 
-### Software Developer | .NET Developer | Cybersecurity Student | Open Source Contributor
+### Software Developer | .NET Developer | Cybersecurity  | Open Source Contributor
 
 <p align="left">
   <a href="https://github.com/edu-lvc">
