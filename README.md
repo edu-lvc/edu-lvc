@@ -1,4 +1,4 @@
-# Eduardo Felipe Jurado
+# Eduardo Jurado
 
 ### Software Developer | .NET Developer | Cybersecurity Student | Open Source Contributor
 
@@ -18,20 +18,20 @@
 
 ## 👨‍💻 About Me
 
-I'm a Software Developer from Panama with over 3 years of professional experience in enterprise application development, backend engineering, business process automation, system integration, and IT infrastructure.
+I'm a Software Developer from Panama with over 3 years of experience in software development, enterprise applications, backend engineering, process automation, and IT infrastructure.
 
-My primary focus is the **.NET ecosystem**, building and maintaining business applications using C#, ASP.NET, VB.NET, SQL Server, and modern development tools.
+My primary focus is the **.NET ecosystem**, building reliable and maintainable applications using C#, ASP.NET Core, VB.NET, SQL Server, and modern development tools.
 
-I'm currently pursuing a Bachelor's Degree in Cybersecurity at Universidad Tecnológica de Panamá (UTP), combining software engineering experience with knowledge of infrastructure, networking, and information security.
+Currently pursuing a Bachelor's Degree in **Cybersecurity at Universidad Tecnológica de Panamá (UTP)**, combining software engineering with knowledge of infrastructure, networking, and information security.
 
-I'm also actively involved in the open-source community, contributing bug fixes, regression tests, and code improvements to established projects.
+I'm also actively contributing to international open-source projects, collaborating with maintainers through bug fixes, regression tests, code reviews, and pull requests.
 
-- 💻 Professional experience in enterprise software development.
-- 🌍 Contributor to international open-source projects.
-- ⚙️ Focused on C#, .NET, backend development, and system integration.
-- 🔐 Academic background in cybersecurity and secure software development.
-- ☁️ Experience with Azure, Docker, Linux, and infrastructure administration.
-- 🚀 Passionate about building reliable, maintainable, and secure software.
+- 💻 Software development and backend engineering.
+- 🌍 Open-source contributions to established projects.
+- ⚙️ Focused on C#, .NET, ASP.NET Core, and SQL Server.
+- 🔐 Interested in secure software development and application security.
+- ☁️ Exploring cloud infrastructure, DevOps, and automation.
+- 🚀 Always learning, building, and contributing.
 
 ---
 
@@ -40,7 +40,7 @@ I'm also actively involved in the open-source community, contributing bug fixes,
 ### Programming Languages & Frameworks
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,java,python" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,java,python,js" />
 </p>
 
 - C#
@@ -49,6 +49,7 @@ I'm also actively involved in the open-source community, contributing bug fixes,
 - .NET MAUI
 - Java / Spring
 - Python
+- JavaScript
 - SQL
 
 ### Databases
@@ -103,7 +104,7 @@ I'm also actively involved in the open-source community, contributing bug fixes,
 
 ## 🌍 Open Source Contributions
 
-I contribute to established open-source projects, focusing on bug fixes, code quality, regression testing, and cross-platform compatibility.
+I believe in collaborative software development and actively contribute to open-source projects, focusing on bug fixes, code quality, regression testing, and cross-platform compatibility.
 
 ### Elsa Workflows — Elsa Core
 
@@ -131,7 +132,7 @@ I contribute to established open-source projects, focusing on bug fixes, code qu
 
 **Status:** In Review.
 
-### Open Source Workflow
+### Contribution Workflow
 
 - Issue investigation and root cause analysis.
 - Code implementation and debugging.
@@ -141,13 +142,24 @@ I contribute to established open-source projects, focusing on bug fixes, code qu
 
 ---
 
+## 🔭 Currently Working On
+
+- Contributing to Elsa Workflows and the .NET ecosystem.
+- Developing Panama Fuel Prices API.
+- Exploring secure software development practices.
+- Improving backend engineering and software architecture skills.
+- Expanding my open-source contributions.
+
+---
+
 ## 🚀 Featured Projects
 
 ### Panama Fuel Prices API
 
-An open-source initiative to centralize and expose official fuel prices in Panama through a public API.
+An open-source initiative focused on centralizing and providing access to official fuel prices in Panama through a public API.
 
-**Goals:**
+**Project goals:**
+
 - Collect official fuel price information from government publications.
 - Automate data extraction and updates.
 - Provide structured and accessible data through an API.
@@ -155,7 +167,7 @@ An open-source initiative to centralize and expose official fuel prices in Panam
 
 ### Enterprise Software & Automation
 
-Development and implementation of business solutions involving:
+Development of business-oriented software solutions involving:
 
 - Enterprise applications with C# and .NET.
 - SQL Server integrations and data management.
@@ -175,6 +187,30 @@ Practical infrastructure and security environments involving:
 
 ---
 
+## 🧠 Engineering Principles
+
+- Writing clean, maintainable, and testable code.
+- Prioritizing reliability, performance, and security.
+- Understanding root causes before implementing fixes.
+- Valuing code reviews and collaborative development.
+- Building solutions with long-term maintainability in mind.
+- Following established conventions and project guidelines.
+- Testing changes before submitting pull requests.
+
+---
+
+## 🎓 Education
+
+**Bachelor's Degree in Cybersecurity**  
+Universidad Tecnológica de Panamá (UTP)  
+Currently pursuing — Final year.
+
+**Oracle Next Education**  
+Backend Development — Java / Spring.
+
+**Google IT Support Professional Certificate**  
+Coursera — Google.
+
 ---
 
 ## 🏅 Certifications & Professional Training
@@ -192,6 +228,17 @@ Practical infrastructure and security environments involving:
 
 ---
 
+## 📚 Currently Learning
+
+- Advanced .NET and ASP.NET Core.
+- Secure Software Development.
+- Cloud Infrastructure and Microsoft Azure.
+- Application Security.
+- Software Testing and Quality Engineering.
+- Backend Architecture and Design Patterns.
+
+---
+
 ## 📊 GitHub Statistics
 
 <p align="center">
@@ -202,6 +249,21 @@ Practical infrastructure and security environments involving:
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=edu-lvc&theme=github-dark-blue&hide_border=true" />
 </p>
+
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=edu-lvc&theme=github-compact&hide_border=true" />
+</p>
+
+---
+
+## 🌐 Languages
+
+- Spanish: Native.
+- English: Technical proficiency.
 
 ---
 
