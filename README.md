@@ -2,7 +2,17 @@
 
 **Software Developer · .NET · Application & Infrastructure Security · Open Source Contributor**
 
-Panama · [LinkedIn](https://www.linkedin.com/in/eduardo-felipe-jurado-ramos-a3b143251/) · [Email](mailto:eduardoj2056@gmail.com)
+<p align="left">
+  <a href="https://github.com/edu-lvc"><img src="https://img.shields.io/badge/GitHub-edu--lvc-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://www.linkedin.com/in/eduardo-felipe-jurado-ramos-a3b143251/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:eduardoj2056@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,azure,docker,linux,git,github" />
+</p>
+
+Panama
 
 ---
 
@@ -16,12 +26,23 @@ I am in the final year of a Bachelor's degree in Cybersecurity (Universidad Tecn
 
 ## Open Source Contributions
 
-| Project | Contribution | Status |
-|---|---|---|
-| [Elsa Workflows](https://github.com/elsa-workflows/elsa-core) | [#9157](https://github.com/elsa-workflows/elsa-core/pull/9157) Fix handling of nested generic activity type names, with regression tests | Merged |
-| [Elsa Workflows](https://github.com/elsa-workflows/elsa-core) | [#9177](https://github.com/elsa-workflows/elsa-core/pull/9177) Fix MySQL migrations (Labels and Secrets): remove unsupported `SIGNAL` pre-checks and make migrations retry-safe, with integration tests | Merged |
-| [ASP.NET Core](https://github.com/dotnet/aspnetcore) | [#70109](https://github.com/dotnet/aspnetcore/pull/70109) Restrict file permissions on the `user-jwts` signing key on Unix, with regression and cross-platform tests | In review |
-| [GLPI](https://github.com/glpi-project/glpi) | [#26151](https://github.com/glpi-project/glpi/pull/26151) Fix personal token handling in planning iCal export links | In review |
+### Elsa Workflows · Elsa Core
+
+[![PR 9157](https://img.shields.io/badge/PR_%239157-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9157)
+Fixed handling of nested generic activity type names, with regression tests.
+
+[![PR 9177](https://img.shields.io/badge/PR_%239177-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9177)
+Fixed MySQL migrations (Labels and Secrets): removed unsupported `SIGNAL` pre-checks and made migrations retry-safe, with integration tests.
+
+### Microsoft .NET · ASP.NET Core
+
+[![PR 70109](https://img.shields.io/badge/PR_%2370109-In_Review-orange?style=flat-square&logo=github)](https://github.com/dotnet/aspnetcore/pull/70109)
+Security fix: restricted file permissions on the `user-jwts` signing key on Unix, with regression and cross-platform tests.
+
+### GLPI Project · GLPI
+
+[![PR 26151](https://img.shields.io/badge/PR_%2326151-In_Review-orange?style=flat-square&logo=github)](https://github.com/glpi-project/glpi/pull/26151)
+Security fix: corrected personal token handling in planning iCal export links.
 
 **How I work on a contribution:** reproduce the issue, find the root cause, implement the fix following the project's conventions, add tests, and iterate on review feedback with the maintainers.
 
