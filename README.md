@@ -1,4 +1,4 @@
-# Eduardo Jurado
+# Eduardo Felipe Jurado
 
 **Software Developer · .NET · Application & Infrastructure Security · Open Source Contributor**
 
@@ -28,11 +28,17 @@ I am in the final year of a Bachelor's degree in Cybersecurity (Universidad Tecn
 
 ### Elsa Workflows · Elsa Core
 
-[![PR 9157](https://img.shields.io/badge/PR_%239157-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9157)
-Fixed handling of nested generic activity type names, with regression tests.
+[![PR 9205](https://img.shields.io/badge/PR_%239205-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9205)
+Normalized tenant ID handling across the MassTransit, Hangfire and Quartz integrations, keeping backward compatibility with previously scheduled jobs, with regression tests.
+
+[![PR 9204](https://img.shields.io/badge/PR_%239204-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9204)
+Security fix: the modular server now validates the Identity token signing key at startup, so Production no longer boots with an insecure placeholder key, with smoke tests.
 
 [![PR 9177](https://img.shields.io/badge/PR_%239177-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9177)
 Fixed MySQL migrations (Labels and Secrets): removed unsupported `SIGNAL` pre-checks and made migrations retry-safe, with integration tests.
+
+[![PR 9157](https://img.shields.io/badge/PR_%239157-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9157)
+Fixed handling of nested generic activity type names, with regression tests.
 
 ### Microsoft .NET · ASP.NET Core
 
