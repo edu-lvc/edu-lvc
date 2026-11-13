@@ -1,6 +1,8 @@
-# Eduardo Felipe Jurado
+# Eduardo Jurado
 
-**Software Developer · .NET · Application & Infrastructure Security · Open Source Contributor**
+**.NET Software Developer · Application Security · Open Source Contributor**
+
+I fix bugs and security issues in production open source projects (Elsa Workflows, ASP.NET Core, GLPI), and I back every fix with regression tests.
 
 <p align="left">
   <a href="https://github.com/edu-lvc"><img src="https://img.shields.io/badge/GitHub-edu--lvc-181717?style=for-the-badge&logo=github" /></a>
@@ -12,33 +14,55 @@
   <img src="https://skillicons.dev/icons?i=cs,dotnet,azure,docker,linux,git,github" />
 </p>
 
-Panama
+📍 Panama · 🗣️ Spanish (native) · English (technical)
 
 ---
 
 ## About
 
-Software developer with 3+ years of experience building enterprise applications, automating business processes and operating the infrastructure behind them. My core stack is **C#, .NET / ASP.NET Core and SQL Server**, with a growing focus on **security**: system hardening, access control, log analysis and secure software development.
+Software developer with 3+ years of experience building enterprise applications, automating business processes and operating the infrastructure behind them. My core stack is **C#, .NET / ASP.NET Core and SQL Server**, with a growing focus on **security**: secure software development, access control, system hardening and log analysis.
 
-I am in the final year of a Bachelor's degree in Cybersecurity (Universidad Tecnológica de Panamá) and contribute to international open source projects, where I fix bugs, write regression tests and work through maintainer code reviews.
+I am in the final year of a Bachelor's degree in Cybersecurity (Universidad Tecnológica de Panamá). I contribute to international open source projects, where I reproduce issues, find root causes, write tests and work through maintainer code reviews.
 
 ---
 
 ## Open Source Contributions
 
+**Elsa Workflows:** 6 merged pull requests in November 2026, 2 more open.
+
 ### Elsa Workflows · Elsa Core
 
-[![PR 9205](https://img.shields.io/badge/PR_%239205-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9205)
-Normalized tenant ID handling across the MassTransit, Hangfire and Quartz integrations, keeping backward compatibility with previously scheduled jobs, with regression tests.
+**Security and identity**
 
 [![PR 9204](https://img.shields.io/badge/PR_%239204-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9204)
-Security fix: the modular server now validates the Identity token signing key at startup, so Production no longer boots with an insecure placeholder key, with smoke tests.
+The modular server now validates the Identity token signing key at startup, so Production no longer boots with an insecure placeholder key. Includes smoke tests for Production, Demo and Identity-disabled scenarios.
+
+[![PR 9209](https://img.shields.io/badge/PR_%239209-Open-2da44e?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9209)
+Identity login now returns HTTP 401 for invalid credentials instead of 200, and Studio's anonymous login calls no longer trigger token refresh. Scheduled for the 3.11 release branch.
+
+**Multi-tenancy**
+
+[![PR 9210](https://img.shields.io/badge/PR_%239210-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9210)
+EF Core now validates explicit tenant IDs, matching the existing Dapper behavior: it stamps the ambient tenant on entities without one and rejects conflicting tenant IDs.
+
+[![PR 9205](https://img.shields.io/badge/PR_%239205-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9205)
+Normalized tenant ID handling across the MassTransit, Hangfire and Quartz integrations, keeping backward compatibility with previously scheduled jobs. 254 tests passing.
+
+[![PR 9239](https://img.shields.io/badge/PR_%239239-Open-2da44e?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9239)
+Architecture Decision Record defining how tenant-agnostic workflow definitions handle triggers, instance ownership, timers, cron and recovery.
+
+**Data and runtime fixes**
 
 [![PR 9177](https://img.shields.io/badge/PR_%239177-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9177)
 Fixed MySQL migrations (Labels and Secrets): removed unsupported `SIGNAL` pre-checks and made migrations retry-safe, with integration tests.
 
 [![PR 9157](https://img.shields.io/badge/PR_%239157-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9157)
 Fixed handling of nested generic activity type names, with regression tests.
+
+**CI**
+
+[![PR 9248](https://img.shields.io/badge/PR_%239248-Merged-8957e5?style=flat-square&logo=github)](https://github.com/elsa-workflows/elsa-core/pull/9248)
+Reordered the npm publish workflow so the Studio WASM package is published and verified before the React package, with gate validation to enforce the order.
 
 ### Microsoft .NET · ASP.NET Core
 
@@ -61,7 +85,7 @@ Security fix: corrected personal token handling in planning iCal export links.
 | **Languages & frameworks** | C#, .NET, ASP.NET Core, VB.NET, .NET MAUI, Java / Spring, Python, JavaScript, SQL |
 | **Databases** | SQL Server, PostgreSQL, MariaDB / MySQL, SQL optimization, data integration |
 | **Cloud & DevOps** | Microsoft Azure, Azure DevOps, Docker, Git / GitHub, CI/CD |
-| **Security** | Linux hardening, access control, auditd and log analysis, Wazuh, Fortinet, Wireshark, secure software development |
+| **Security** | Secure software development, Linux hardening, access control, auditd and log analysis, Wazuh, Fortinet, Wireshark |
 | **Infrastructure** | Windows Server, Linux (Debian, Rocky), Active Directory, DNS, DHCP, VMware, pfSense, GLPI, Zabbix |
 | **Automation & BI** | Power Automate, Power Apps, AppSheet, n8n, Power BI, Microsoft Fabric |
 
@@ -99,9 +123,7 @@ Environment with Windows Server and Active Directory, Debian and Rocky Linux, pf
 
 ## Focus Areas
 
-Backend engineering · .NET ecosystem · Application security · Secure software development · Cloud infrastructure · Database engineering · Process automation
-
-**Languages:** Spanish (native) · English (technical)
+Backend engineering · .NET ecosystem · Application security · Secure software development · Multi-tenant systems · Cloud infrastructure · Database engineering · Process automation
 
 ---
 
